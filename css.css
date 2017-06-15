@@ -1,18 +1,4 @@
-body {
-  margin-top: 50px;
-}
-
-div.body {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  overflow: auto;
-}
-
-div.nav-section {
-  padding-top: 70px;
-}
-
-span.glyphicon {
-  /* font-size: 3em; */
+.nav-section {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }

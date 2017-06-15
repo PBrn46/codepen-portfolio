@@ -1,32 +1,33 @@
 <!-- NAVBAR -->
-<nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand navbar-left" href="#">
-        <img alt="B:" class="img-responsive" src="https://s3-us-west-2.amazonaws.com/tetago-public/portfolio/logo-bw/bw-icon-standard.png">
-      </a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
+<nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse" id="main-navbar">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#about">
+    <img alt="B:" height="30" src="https://s3-us-west-2.amazonaws.com/tetago-public/portfolio/logo-bw/bw-icon-standard.png">
+  </a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
   </div>
 </nav>
 
 
 <!-- ABOUT SECTION -->
 <div class="container nav-section" id="about">
-  <div class="jumbotron text-center">
+  <div class="jumbotron">
     <p class="text-warning">This page is a work in progress!</p>
+    <h4 class="display-4">Boris Wong</h4>
+    <p class="lead">Developer</p>
     <ul>
       <li>full-stack developer</li>
       <li>experience in project management, industrial controls and automation</li>
@@ -35,96 +36,87 @@
       <li>capable of rapid front-/back-end website deployment from scratch or from template.</li>
     </ul>
     <!-- <img src="https://s3-us-west-2.amazonaws.com/tetago-public/portfolio/industrial-controls/fan001.gif" alt="Fan Control"> -->
-    <h4>Web Developer, Industrial Automation, Device Integration</h4>
+    <!-- <h4>Web Developer, Industrial Automation, Device Integration</h4> -->
   </div>
 </div>
 
 
 <!-- Portfolio Section -->
 <div class="container nav-section" id="portfolio">
-  <h1><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Portfolio</h1>
-  <ul class="list-group">
+  <h1>Portfolio</h1>
+  <div class="card">
 
-    <!-- <li class="list-group-item"> -->
+    <!-- <li class="card-block"> -->
     <!-- <img src="https://s3-us-west-2.amazonaws.com/tetago-public/portfolio/industrial-controls/hmi001.gif" alt="Custom HMI Screen"> -->
     <!-- </li> -->
 
-    <li class="list-group-item">
+    <div class="card-block">
       <div>
         <a href="https://codepen.io/PBrn46/full/wezQyB/">Interactive Tic-Tac-Toe</a>
       </div>
       <div>
-        React.js, client-side, tic-tac-toe game.
+        React.js, Bootstrap, responsive, client-side, tic-tac-toe game.
       </div>
-    </li>
+    </div>
 
-    <li class="list-group-item">
+    <div class="card-block">
       <div>
         <a href="https://codepen.io/PBrn46/full/OgMjqd/">Javascript Calculator</a>
       </div>
       <div>
-        Anguar, client-side, calculator.
+        Anguar, Bootstrap, responsive, client-side, calculator.
       </div>
-    </li>
+    </div>
 
-    <li class="list-group-item">
+    <div class="card-block">
       <div>
         <a href="https://codepen.io/PBrn46/full/qjNbYZ/">Pomodoro Clock</a>
       </div>
       <div>
-        Anguar, client-side, real-time pomodoro clock / timer.
+        Anguar, Bootstrap, responsvie, client-side, real-time pomodoro clock / timer.
       </div>
-    </li>
+    </div>
 
-  </ul>
-  <ul class="list-group">
-    <li class="list-group-item">
-      <a class="list-group-item" target="_blank" href="https://github.com/PBrn46/">Github</a>
-    </li>
-    <li class="list-group-item">
-      <a class="list-group-item" target="_blank" href="https://codepen.io/PBrn46/">Codepen</a>
-    </li>
-    <li class="list-group-item">
-      <a class="list-group-item" target="_blank" href="https://www.freecodecamp.com/pbrn46">FreeCodeCamp</a>
-    </li>
-  </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-header" >
+      Profile Pages
+    </div>
+    <div class="list-group list-group-flush" >
+        <a class="list-group-item" target="_blank" href="https://github.com/PBrn46/">Github</a>
+        <a class="list-group-item" target="_blank" href="https://codepen.io/PBrn46/">Codepen</a>
+        <a class="list-group-item" target="_blank" href="https://www.freecodecamp.com/pbrn46">FreeCodeCamp</a>
+      </div>
+    </div>
+  </div>
 
 </div>
 
 
 <!-- Contact Section -->
 <div class="container nav-section" id="contact">
-  <h1><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Contact Me</h1>
+  <h1>Contact Me</h1>
   <p>This section is a WIP, please don't submit anything... I won't get it. :( Currently I don't know what service I can submit this to while using codepen.io.</p>
   <form class="form-horizontal">
     <div class="form-group">
-      <label for="input-name" class="control-label col-sm-2">Name</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="input-name" placeholder="Name">
-      </div>
+      <label for="input-name" class="">Name</label>
+      <input type="text" class="form-control" id="input-name" placeholder="Name">
     </div>
     <div class="form-group">
-      <label for="input-email" class="control-label col-sm-2">Email</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="input-email" placeholder="Email Address">
-      </div>
+      <label for="input-email" class="">Email</label>
+      <input type="text" class="form-control" id="input-email" placeholder="Email Address">
     </div>
     <div class="form-group">
-      <label for="input-phone" class="control-label col-sm-2">Phone</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="input-phone" placeholder="Phone Number">
-      </div>
+      <label for="input-phone" class="">Phone</label>
+      <input type="text" class="form-control" id="input-phone" placeholder="Phone Number">
     </div>
     <div class="form-group">
-      <label for="input-comments" class="control-label col-sm-2">Comments</label>
-      <div class="col-sm-10">
-        <textarea rows=5 class="form-control" id="input-comments" placeholder="Your comments"></textarea>
-      </div>
+      <label for="input-comments" class="">Comments</label>
+      <textarea rows=5 class="form-control" id="input-comments" placeholder="Your comments"></textarea>
     </div>
     <div class="form-group">
-      <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-default">Submit</button>
-      </div>
+      <button type="submit" class="btn btn-outline-primary">Submit</button>
     </div>
   </form>
 </div>
